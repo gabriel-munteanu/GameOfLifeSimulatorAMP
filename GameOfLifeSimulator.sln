@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameOfLifeSimulator", "GameOfLifeSimulator\GameOfLifeSimulator.vcxproj", "{8C46DCCD-42B7-43B7-B79C-714E95B6CCAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLifeSimulatorUI", "GameOfLifeSimulatorUI\GameOfLifeSimulatorUI.csproj", "{2E5B9C11-37E5-4C68-9010-0C9AC5A9ABE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C46DCCD-42B7-43B7-B79C-714E95B6CCAC} = {8C46DCCD-42B7-43B7-B79C-714E95B6CCAC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C46DCCD-42B7-43B7-B79C-714E95B6CCAC}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{8C46DCCD-42B7-43B7-B79C-714E95B6CCAC}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{8C46DCCD-42B7-43B7-B79C-714E95B6CCAC}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{8C46DCCD-42B7-43B7-B79C-714E95B6CCAC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C46DCCD-42B7-43B7-B79C-714E95B6CCAC}.Debug|Win32.Build.0 = Debug|Win32
+		{8C46DCCD-42B7-43B7-B79C-714E95B6CCAC}.Release|Any CPU.ActiveCfg = Release|Win32
+		{8C46DCCD-42B7-43B7-B79C-714E95B6CCAC}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{8C46DCCD-42B7-43B7-B79C-714E95B6CCAC}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{8C46DCCD-42B7-43B7-B79C-714E95B6CCAC}.Release|Win32.ActiveCfg = Release|Win32
+		{8C46DCCD-42B7-43B7-B79C-714E95B6CCAC}.Release|Win32.Build.0 = Release|Win32
+		{2E5B9C11-37E5-4C68-9010-0C9AC5A9ABE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5B9C11-37E5-4C68-9010-0C9AC5A9ABE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5B9C11-37E5-4C68-9010-0C9AC5A9ABE8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2E5B9C11-37E5-4C68-9010-0C9AC5A9ABE8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2E5B9C11-37E5-4C68-9010-0C9AC5A9ABE8}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{2E5B9C11-37E5-4C68-9010-0C9AC5A9ABE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5B9C11-37E5-4C68-9010-0C9AC5A9ABE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5B9C11-37E5-4C68-9010-0C9AC5A9ABE8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2E5B9C11-37E5-4C68-9010-0C9AC5A9ABE8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2E5B9C11-37E5-4C68-9010-0C9AC5A9ABE8}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
